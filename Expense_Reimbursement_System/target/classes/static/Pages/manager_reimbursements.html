@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Manage Reimbursements</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../Styles/my_social_media_page.css"/>
+    </head>
+
+    <body>
+        <header><h1 style ="font-style:italic; text-align: center;">Your Reimbursements</h1></header>
+
+        <div id="grid" class="grid-container">
+          <div class="item1">
+            <form id="only_form" method="POST" action="http://localhost:5555/reimbursement/new">
+      		  <input type="text" placeholder="Reimbursement Amount" required maxlength="20" name="reimbursement_amt"/>
+              <input type="text" placeholder="Reimbursement Type" required name="reimbursement_type"/>
+              <!--<input type="number" placeholder="Employee Id" required name="employee_id"/>
+              <input type="text" placeholder="Employee Name" required name="employee_name"/>-->
+              <input type="submit" value="Submit Reimbursement Request" required/>
+          </div>
+
+          <div class="item2">Menu</div>
+          <div class="item3"><a href="url">Manage Reimbursements</a></div>  
+          <div class="item4">Links</div>
+          <div class="item5"><a href="url">View Approved Reimbursements</a></div>
+          <div class="item6"><a href="url">View Pending Reimbursements</a></div>
+          <div class="item7"><a href="url">View All Reimbursements</a></div>
+        </div>    
+    </body>
+</html>
+
+
+
+
+</html>

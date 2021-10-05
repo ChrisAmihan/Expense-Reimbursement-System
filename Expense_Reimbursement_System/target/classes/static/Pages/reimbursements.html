@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Reimbursements</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../Styles/my_social_media_page.css"/>
+    </head>
+
+    <body>
+        <header><h1 style ="font-style:italic; text-align: center;">Employee Dashboard</h1></header>
+
+        <div id="grid" class="grid-container">
+          <div class="item1">
+            <form id="only_form" method="POST" action="http://localhost:5555/reimbursement/new">
+              <input type="text" placeholder="Reimbursement Amount" required maxlength="20" name="reimbursement_amt"/>
+              <input type="text" placeholder="Reimbursement Type" required name="reimbursement_type"/>
+              <!--<input type="number" placeholder="Employee Id" required name="employee_id"/>
+              <input type="text" placeholder="Employee Name" required name="employee_name"/>-->
+              <input type="submit" value="Submit Reimbursement Request" required/>
+            </form>
+            <form id="logout_button" method = "POST" action="http://localhost:5555/employee/logout">
+              <input type="submit" value="Logout" required/> 
+            </form>
+          </div>
+
+          <div class="item2">
+          	<h4>Menu</h4>
+          		<p><a href="/Pages/reimbursements.html">Dashboard</a></p>
+          		<p><a href="/Pages/reimbursements.html">Update Info</a></p>
+          		<p><a href="/Pages/reimbursements.html">Change Password</a></p>
+          </div>
+          <div id="reimbursement_container" class="item3">Your Reimbursements</div> 
+          <div class="item4">
+          	<h4>Links</h4>
+          </div>
+          <div class="item5"><a href="/Pages/reimbursements.html">View Approved Reimbursements</a></div>
+          <div class="item6"><a href="/Pages/reimbursements.html">View Pending Reimbursements</a></div>
+          <div class="item7"><a href="/Pages/reimbursements.html">View All Reimbursements</a></div>
+        </div>    
+        
+        <script src="../Scripts/reimbursements_ajax.js"></script>
+        
+    </body>
+    
+</html>

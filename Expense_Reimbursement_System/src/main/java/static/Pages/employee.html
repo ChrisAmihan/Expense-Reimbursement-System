@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Employee Submission</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="../Styles/my_social_media_page.css" />
+</head>
+
+<body>
+	<header>
+		<h1 style="font-style:italic; text-align: center;">Employee Submission Page</h1>
+	</header>
+
+	<div id="grid" class="grid-container">
+		<div class="item1">
+			<form id="only_form" method="POST" action="http://localhost:5555/employee/new">
+				<input type="text" placeholder="Employee Name" required maxlength="20" name="employee_name" />
+				<input type="text" placeholder="Employee Type" required name="employee_type" />
+				<input type="text" placeholder="Employee Username" required name="employee_login" />
+				<input type="text" placeholder="Employee Password" required name="employee_pass" />
+				<input type="submit" value="Submit Employee" required />
+			</form>
+			<form id="logout_button" method = "POST" action="http://localhost:5555/logout">
+                <input type="submit" value="Logout" required/> 
+			</form>
+		</div>
+		
+		<div class="item2">
+			<h4>Menu</h4>
+				<p><a href="/Pages/manager.html">Dashboard</a></p>
+		</div>
+		<div id="employee_container" class="item3">
+			<a>Employees</a>
+		</div>  
+		<div class="item4">Links</div>
+		<div class="item5"><a href="/Pages/employee.html">Update Employee Info</a></div>
+		<div class="item6"><a href="/Pages/employee.html">View Employees</a></div>
+		<div class="item7"><a href="/Pages/employee.html">View Managers</a></div>
+	</div>
+	
+	<script src="../Scripts/employees_ajax.js"></script>
+</body>
+
+</html>
