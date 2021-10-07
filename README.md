@@ -19,7 +19,9 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 List of features ready and TODOs for future development
 * Users may login as an employee or a manager to make reimbursement requests.
 * Users may view and create new reimbursement requests.
-* Managers may approve/deny a reimbursement request and view a statistics page.
+* Users logged in as a manager may add a new employee or remove an existing employee.
+* Users logged in as a manger may add or deny reimbursement requests.
+* Users logged in as a manger may view a statistics page.
 
 To-do list:
 * Update styling.
