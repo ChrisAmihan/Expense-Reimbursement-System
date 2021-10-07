@@ -2,24 +2,30 @@
 
 ## Project Description
 
-Here goes your awesome project description!
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can log in and submit requests for reimbursements and view their past tickets and pending requests. Managers can log in and view all reimbursement requests and past history for all employees in the company. Managers are authorized to approve and deny requests for expense reimbursements.
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Java - version 1.0
+* HTML - version 2.0
+* CSS - version 
+* JavaScript 3 - version 3.0
+* Hibernate - version 5.5.7
+* Javalin - version 3.13.11
+* AWS RDS -
+* Postman - version 8.11.1
+* SQL -
 
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Users may login as an employee or a manager to make reimbursement requests.
+* Users may view and create new reimbursement requests.
+* Managers may approve/deny a reimbursement request and view a statistics page.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Update styling.
+* Incorporate more statistics.
 
 ## Getting Started
    
@@ -35,11 +41,3 @@ To-do list:
 ## Usage
 
 > Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
-
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
