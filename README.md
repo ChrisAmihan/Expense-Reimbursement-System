@@ -6,15 +6,13 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Technologies Used
 
-* Java - version 1.0
-* HTML - version 2.0
-* CSS - version 
+* JRE 1.8
+* Spring Tool Suite 4.11.0
 * JavaScript 3 - version 3.0
 * Hibernate - version 5.5.7
 * Javalin - version 3.13.11
-* AWS RDS -
 * Postman - version 8.11.1
-* SQL -
+* MariaDB - version 2.7.4
 
 ## Features
 
@@ -26,3 +24,4 @@ List of features ready and TODOs for future development
 To-do list:
 * Update styling.
 * Incorporate more statistics.
+* More test coverage.
